@@ -2,7 +2,7 @@
    --primary-text-color:#212121;
    --secondary-text-color: #757575;
    --accent-color: #2196F3; 
-   --primary-white-color: #ffffff;
+   --primary-white-color: #FFFFFF;
    --primary-bgcolor:#2F303A;
    --secondary-bgcolor: #E5E5E5;
    --tertiary-bgcolor: #F5F4FA;
@@ -48,22 +48,26 @@ body {
 
 /* все что с хувер эффектом*/
 .header{ color: inherit;
-         font-family: inherit;
          font-weight: 500;
          font-size: 14px;
-         line-height: 16px;
+         line-height: 1.14;
          letter-spacing: 0.02em;
+         text-decoration: none;
          }
 
 .header:hover, .header:focus { 
     color: var(--accent-color);
 }
 
+.contact1 {
+    color: var(--secondary-text-color);
+}
+
 .submit {
     font-family: inherit;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
@@ -77,7 +81,7 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
 }
@@ -90,31 +94,33 @@ body {
 
 .description {
     color: var(--secondary-text-color);
+    font-weight: 400;
 }
 
 .primary {
-    font-family: inherit;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;  
+    line-height: 1.7;
+    letter-spacing: 0.03em; 
+    font-weight: 400; 
 
 }
 
 .secondary {
-    font-family: inherit;
-     font-size: 16px;
-    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
 
 /* Logo*/
 
 .logo {
     color: var(--accent-color);
-    font-family: 'Releway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .logo2 {
@@ -128,20 +134,24 @@ body {
 /*footer*/
 
 .footer {
-    font-family: inherit;
+    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: var(--primary-white-color);
+    text-decoration: none;
 }
 
+.contact {
+    color: rgba(255,255,255, 0.6);
+}
 /*все заголовки*/
 
 .heading1 {
     color: var(--primary-white-color);
-    font-family: inherit;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-transform:uppercase;
     text-align: center;
     letter-spacing: 0.06em;
@@ -149,31 +159,36 @@ body {
 }
 
 .heading3 {
-    font-family: inherit;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     color: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
 
 }
 
 .heading4 {
-    font-family: inherit;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     color: imherit;
 }
 
-.heading5 {font-family: inherit;
-           font-style: medium;
-           font-size: 16px;
-           line-height: 19px;
-           color: inherit;
+.heading5 {
+    font-style: medium;
+    font-size: 16px;
+    line-height: 1.18;
+    color: inherit;
 
 }
 
 .heading6 {
-    font-family: inherit;
     color: inherit;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
+}
+
+/* Списки*/
+
+.list {
+    list-style-type:none;
 }
