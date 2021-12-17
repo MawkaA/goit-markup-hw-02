@@ -47,6 +47,7 @@ body {
 }
 
 /* все что с хувер эффектом*/
+
 .header{ color: inherit;
          font-weight: 500;
          font-size: 14px;
@@ -56,6 +57,11 @@ body {
          }
 
 .header:hover, .header:focus { 
+    color: var(--accent-color);
+}
+
+
+.header.active {
     color: var(--accent-color);
 }
 
@@ -142,9 +148,14 @@ body {
     text-decoration: none;
 }
 
+.footer:hover, .footer:focus { 
+    color: var(--accent-color);
+}
+
 .contact {
     color: rgba(255,255,255, 0.6);
 }
+
 /*все заголовки*/
 
 .heading1 {
